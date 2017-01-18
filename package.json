@@ -11,5 +11,8 @@
     "node": "7"
   },
   "author": "Labs-js <https://github.com/labs-js>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^1.4.14"
+  }
 }
