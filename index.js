@@ -1,16 +1,8 @@
-const fs = require('fs');
-const exec = require('child_process').exec;
-const assert = require('assert').ok;
+#!/usr/bin/env node
 
-var checkGitFiles = function(dir) {
-    assert(typeof dir ==='string');
-    var parseDir = dir.split(' ');
-    assert(parseDir.length === 1);
-    //FIX: dir should not contain any command.
-    exec("git status " + dir, function(err, stdout, stderr) {
-        console.log(stdout);
-        console.log(stderr);
-    });
-};
+module.exports = function () {
+    require('./lib/ci_deamon');
+}
 
-checkGitFiles("./")
+var t = require("./lib/ci_deamon");
+t.executeStatusCall('./');
