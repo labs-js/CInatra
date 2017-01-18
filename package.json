@@ -4,7 +4,8 @@
   "description": "Check and rund Builds",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ./app/main.js"
   },
   "author": "JS LABS",
   "license": "ISC"
