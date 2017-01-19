@@ -1,15 +1,21 @@
 {
-  "name": "turbo-ci",
-  "version": "1.0.0",
-  "description": "Check and rund Builds",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "electron ./app/main.js"
-  },
-  "author": "JS LABS",
-  "license": "ISC",
-  "devDependencies": {
-    "devtron": "^1.4.0"
-  }
+    "name": "CInatra",
+    "version": "0.0.0",
+    "description": "Check and runs Builds",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "electron ./app/main.js"
+    },
+    "engines": {
+        "node": "7"
+    },
+    "author": "Labs-js <https://github.com/labs-js>",
+    "license": "MIT",
+    "dependencies": {
+        "electron": "^1.4.14"
+    },
+    "devDependencies": {
+        "devtron": "^1.4.0"
+    }
 }
