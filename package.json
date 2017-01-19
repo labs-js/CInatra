@@ -8,5 +8,8 @@
     "start": "electron ./app/main.js"
   },
   "author": "JS LABS",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "devtron": "^1.4.0"
+  }
 }
